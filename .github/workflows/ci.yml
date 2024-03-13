@@ -26,6 +26,6 @@ jobs:
           python -m unittest test_resta.py
       - name: Run test 3
         run:          
-          python -m unittest test_multiplicación.py
+          python -m unittest test_multiplicar.py
 
 
