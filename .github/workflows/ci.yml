@@ -21,5 +21,7 @@ jobs:
       - name: Run tests
         run:
           python -m unittest test_suma.py
+      - name: Run test 2  
+        run:
           python -m unittest test_resta.py
 
