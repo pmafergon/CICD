@@ -1,8 +1,9 @@
 def dividir(a, b):
-    if b == 0:
-        raise ValueError('No se puede dividir por cero!')
     return a / b
 
 
 if __name__ == "__main__":
-    print(dividir(5, 3))
+    try:
+        print(dividir(5, 3))
+    except ZeroDivisionError:
+        print("¡No es posible dividir entre cero!")
