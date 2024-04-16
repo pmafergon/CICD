@@ -1,5 +1,5 @@
 import unittest
-from resta import restar
+from operaciones import restar
 
 class TestRestar(unittest.TestCase):
     

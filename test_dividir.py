@@ -1,5 +1,5 @@
 import unittest
-from dividir import dividir
+from operaciones import dividir
 
 class TestDividir(unittest.TestCase):
 

@@ -1,5 +1,5 @@
 import unittest
-from multiplicar import multiplicar
+from operaciones import multiplicar
 
 class TestMultiplicar(unittest.TestCase):
 
