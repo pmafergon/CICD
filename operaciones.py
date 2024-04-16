@@ -11,12 +11,7 @@ def multiplicar(a, b):
 
 
 def dividir(a, b):
-    try:
-        a / b
-        return a / b
-    except ZeroDivisionError:
-        return ("¡No es posible dividir entre cero!")
-    
+    return a / b    
 
 if __name__ == "__main__":
     print(sumar(5, 3))
